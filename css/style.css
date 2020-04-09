@@ -1,13 +1,6 @@
 
-/* 
-font-family: 'Gotu', sans-serif;
-
-font-family: 'Great Vibes', cursive;
-
-    font-family: 'Roboto', sans-serif;
-    */
     
-    body{
+body{
   margin: 0;
   text-align: center;
   font-family: 'Gotu', sans-serif;
@@ -18,6 +11,7 @@ hr {
   width: 10%;
   border-style: dotted none none none;
   border-width: 5px;  
+  border-color: #706c61 ;
 }
 
 h1{
@@ -47,10 +41,10 @@ p{
   
 }
 
-.mid_div{
+.contact_div{
   background-color: #f6eec9;
   margin: 0;
-  padding: 100px;
+  padding: 30px;
 }
 
 .skils{
@@ -117,6 +111,37 @@ p{
   bottom: 130px;
   transform: rotate(0.75turn);
 }
+
+.myButton {
+	background:linear-gradient(to bottom, #fe8861 5%, #af470f 100%);
+	background-color:#fe8861;
+	border-radius:11px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:19px 39px;
+  text-decoration:none;
+  margin: 60px auto 40px auto;
+
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #af470f 5%, #fe8861 100%);
+	background-color:#af470f;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+
+.contact_links{
+  margin: 0 20px ;
+  text-decoration: none;
+  color: #BB5800;
+}
+        
 
 /* ID ************************* */
 
