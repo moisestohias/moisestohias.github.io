@@ -1,10 +1,85 @@
+#logo  {
+  width: 40px;
+  height: 40px;
+  padding: 10px 0;
 
-    
+  float: left;
+}
+
+.NavBar {
+  float: right;
+}
+
+header:after {
+  /*this is used to give the header its size back after the the logo and ul float*/
+  content: "";
+  display: table;
+  clear: both;
+}
+
+header {
+  background-color: #fed39f ;
+}
+
+.nav {
+  width: 90%;
+  margin: 0 auto ;
+}
+
+.nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.nav li {
+  position: relative;
+  display: inline-block;
+  margin-left: 60px;
+  /*margin: 0 30px;*/
+  padding: 0;
+  list-style: none;
+  padding-top: 20px;
+}
+.nav a {
+  color: #444;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: 'Gotu', sans-serif; 
+  font-size: 1em;
+  /*font-style: 16em;*/
+}
+
+.NavBar a:hover {
+  color: #000;
+}
+
+.NavBar a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  width: 100%;
+  background-color: #444;
+
+  position: absolute;
+  top: 0;
+  width: 0%;
+  transition: all ease-in-out 250ms;
+}
+
+
+.NavBar a:hover::before {
+  width: 100%;
+}
+
+/*=======================================*/
+
 body{
+  /*padding: 0;*/
   margin: 0;
   text-align: center;
   font-family: 'Gotu', sans-serif;
-  background-color: #fdffbc;
+  background-color: #fce38a;
 }
 
 hr {
@@ -48,31 +123,32 @@ p{
 }
 
 .skils{
+  /*background-color: pink; */
   width: 50%;
   margin: 0 auto;  
   padding: 100px;
 }
 .skills_row{
   margin: 100px auto 100px auto;
-  text-align: left;
-  /* background-color: khaki; */
+  /*text-align: left;*/
+  /*background-color: navajowhite; */
 }
 .skills_heading{
   position: relative;
-  /* margin: 0 auto 0 auto; */
+   /*margin: 0 auto 0 auto; */
   
 }
 
 .skills_images_left{
   width: 25%;
   float: left;
-  margin-right: 50px;
+  /*margin-right: 50px;*/
 }
 
 .skills_images_right{
   width: 25%;
   float: right;
-  margin-left: 50px;
+  /*margin-left: 50px;*/
 }
 
 .center_image{
@@ -91,7 +167,7 @@ p{
   position: absolute;
   width: 100px;
   right: 200px;
-  top: 50px;
+  top: 30px;
   /* transform: rotate(0.75turn); */
   opacity: 60%;
 }
