@@ -116,10 +116,17 @@ p{
   
 }
 
+.about_div{
+  /*width: 50%;*/
+  margin: 0 auto;  
+  padding: 15%;
+  background-color: #FFC069;
+}
+
 .contact_div{
-  background-color: #f6eec9;
   margin: 0;
   padding: 30px;
+  background-color: #f6eec9;
 }
 
 .skils{
@@ -189,26 +196,26 @@ p{
 }
 
 .myButton {
-	background:linear-gradient(to bottom, #fe8861 5%, #af470f 100%);
-	background-color:#fe8861;
-	border-radius:11px;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-	font-family:Arial;
-	font-size:17px;
-	padding:19px 39px;
+    background:linear-gradient(to bottom, #fe8861 5%, #af470f 100%);
+    background-color:#fe8861;
+    border-radius:11px;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:17px;
+    padding:19px 39px;
   text-decoration:none;
   margin: 60px auto 40px auto;
 
 }
 .myButton:hover {
-	background:linear-gradient(to bottom, #af470f 5%, #fe8861 100%);
-	background-color:#af470f;
+    background:linear-gradient(to bottom, #af470f 5%, #fe8861 100%);
+    background-color:#af470f;
 }
 .myButton:active {
-	position:relative;
-	top:1px;
+    position:relative;
+    top:1px;
 }
 
 
@@ -222,8 +229,8 @@ p{
 /* ID ************************* */
 
 #PersonalPic{
-  height: 150px;
-  width: 150px;
+  height: 40%;
+  width: 40%;
   border-radius: 100%;
   margin: 0px auto;
 }
