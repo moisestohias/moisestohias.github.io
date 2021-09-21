@@ -106,7 +106,12 @@ p{
   margin: 0;
 }
 
-
+.left_align{
+    text-align: left;
+}
+.right_align{
+    text-align: right;
+}
 
 .top_div{
   position: relative;
@@ -146,16 +151,17 @@ p{
   
 }
 
+
 .skills_images_left{
   width: 25%;
   float: left;
-  /*margin-right: 50px;*/
+  margin-right: 10px;
 }
 
 .skills_images_right{
   width: 25%;
   float: right;
-  /*margin-left: 50px;*/
+  margin-left: 10px;
 }
 
 .center_image{
