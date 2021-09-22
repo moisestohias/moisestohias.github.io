@@ -120,8 +120,8 @@ p{
 .top_div{
   position: relative;
   background-color:#fed39f ;
-  /*padding: 70px 0 0 0 ;*/
-  padding: 10% 5%;
+  padding-top: 70px;
+  /*padding: 10% auto 10% auto;*/
   margin: 0;
   
 }
@@ -140,7 +140,7 @@ p{
 }
 
 .skils{
-  /*background-color: pink; */
+  background-color: #FDE49C; 
   /*width: 50%;*/
   margin: 0 auto;  
   padding: 15%;
@@ -175,10 +175,10 @@ p{
    height: 50%; 
   /* opacity: 30%; */
   /* top: 80px; */
-  bottom: 30px;
+  /*bottom: 30px;*/
   /* left: 300px; */
   /*margin: 0 auto -113px auto;*/
-  margin: 10px auto;
+  /*margin: 10px auto;*/
 }
 
 .Tools{
