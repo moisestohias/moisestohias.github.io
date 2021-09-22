@@ -120,7 +120,8 @@ p{
 .top_div{
   position: relative;
   background-color:#fed39f ;
-  padding: 70px 0 0 0 ;
+  /*padding: 70px 0 0 0 ;*/
+  padding: 10% 5%;
   margin: 0;
   
 }
@@ -176,7 +177,8 @@ p{
   /* top: 80px; */
   bottom: 30px;
   /* left: 300px; */
-  padding: 20px auto;
+  /*margin: 0 auto -113px auto;*/
+  margin: 10px auto;
 }
 
 .Tools{
